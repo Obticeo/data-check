@@ -10,5 +10,6 @@ jobs:
   log-result:
     runs-on: ubuntu-latest
     steps:
-      - name: 23f2000873@ds.study.iitm.ac.in - Log Final Total
-        run: echo "Total Sum: 2490377"
+      - name: "23f2000873@ds.study.iitm.ac.in - Log Final Total"
+        run: |
+          echo "Total Sum: 2490377"
